@@ -1,7 +1,7 @@
 class Grib_api < PACKMAN::Package
-  url 'https://software.ecmwf.int/wiki/download/attachments/3473437/grib_api-1.12.3.tar.gz'
+  url 'https://software.ecmwf.int/wiki/download/attachments/3473437/grib_api-1.23.0-Source.tar.gz'
   sha1 '2764b262c8f081fefb81112f7f7463a3a34b6e66'
-  version '1.12.3'
+  version '1.23.0'
 
   depends_on :netcdf_c
   depends_on :jasper
